@@ -18,13 +18,13 @@ sudo docker -v
 
 2. Creating a network bridge
 
-```bash
+```posh
 sudo docker network create --driver bridge trading-net
 ```
 
 3. Building PSQL image
 
-```
+```posh
 git clone git@github.com:steve-ma-jrvs/Cloud_DevOps.git
 cd trading_app/psql
 
@@ -53,7 +53,7 @@ docker container ls
 
 4. Building trading-app image
 
-```bash
+```posh
 cd trading_app/
 
 #check Docker file
@@ -79,7 +79,7 @@ docker container ls
 
 5. Verify the trading-app
 
-```bash
+```posh
 #verify health
 curl localhost:8080/health
 #verify Swagger UI from your browser
