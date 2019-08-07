@@ -8,7 +8,7 @@
 ## Docker Containerize Trading-App
 
 1. Start docker
-```zsh
+```console
 #auto start
 sudo systemctl enable docker
 #start service
@@ -98,4 +98,4 @@ localhost:8080/swagger-ui.html
 | Fault-tolerance | N/A                       | EC2-AutoScaling<br />VPC, etc.          |
 
 ### Detailed Architecture Diagram
-[!image](https://github.com/steve-ma-jrvs/Cloud_DevOps/blob/master/images/Trading-App-AWS.png)
+![image1](https://github.com/steve-ma-jrvs/Cloud_DevOps/blob/master/images/Trading-App-AWS.png)
