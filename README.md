@@ -8,7 +8,7 @@
 ## Docker Containerize Trading-App
 
 1. Start docker
-```cmd
+```dos
 #auto start
 sudo systemctl enable docker
 #start service
