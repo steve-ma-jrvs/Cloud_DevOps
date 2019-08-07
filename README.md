@@ -8,7 +8,7 @@
 ## Docker Containerize Trading-App
 
 1. Start docker
-```Shell
+```zsh
 #auto start
 sudo systemctl enable docker
 #start service
@@ -24,7 +24,7 @@ sudo docker network create --driver bridge trading-net
 
 3. Building PSQL image
 
-```bash
+```
 git clone git@github.com:steve-ma-jrvs/Cloud_DevOps.git
 cd trading_app/psql
 
@@ -97,5 +97,5 @@ localhost:8080/swagger-ui.html
 | Scaling         | Verticaling <br />Scaling | Horizontal Scaling<br />EC2-Autoscaling |
 | Fault-tolerance | N/A                       | EC2-AutoScaling<br />VPC, etc.          |
 
-<mark>To-do diagram</mark>
-
+### Detailed Architecture Diagram
+[!image](https://github.com/steve-ma-jrvs/Cloud_DevOps/blob/master/images/Trading-App-AWS.png)
